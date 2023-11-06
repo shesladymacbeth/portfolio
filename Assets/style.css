@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+  }
+  
+.title {
+    filter: drop-shadow(2px 2px rgb(48, 55, 119));
+
+}
+
+
+.about-me-photo {
+    height: 300px;
+    width: 300px;
+}
+
+
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #ffdbe4;
+    color: #9868c2;
+    background-image: url("/Users/kayo/portfolio/Assets/background.png"); 
+    background-size: contain;
+   
+  }
+  
+  nav {
+    display: flex;
+    background-color: #FC909F;
+  }
+  
+  nav a {
+    color: #3d1335;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #DBF0F5;
+    padding: 20px;
+  }
+  
+  section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #FC909F;
+    color: #fff;
+  }
+  
